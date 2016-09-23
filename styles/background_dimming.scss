@@ -1,0 +1,7 @@
+$background-dim-color: #000000;
+$background-dim-opacity: .14;
+
+.background-dim {
+    background-color: $background-dim-color;
+    opacity: $background-dim-opacity;
+}

@@ -1,0 +1,101 @@
+@mixin size($sizename, $units) {
+    @if $sizename == tiny {
+        @if $units == ems {
+            font-size: 0.875em;
+        }
+        @if $units == px {
+            font-size: 14px;
+        }
+        @if $units == pts {
+            font-size: 10.5pt;
+        }
+    }
+    @if $sizename == ex-small {
+        @if $units == ems {
+            font-size: 1em;
+        }
+        @if $units == px {
+            font-size: 16px;
+        }
+        @if $units == pts {
+            font-size: 12pt;
+        }
+    }
+    @if $sizename == small {
+        @if $units == ems {
+            font-size: 1.083em;
+        }
+        @if $units == px {
+            font-size: 17px;
+        }
+        @if $units == pts {
+            font-size: 13pt;
+        }
+    }
+    @if $sizename == smaller {
+        @if $units == ems {
+            font-size: 1.125em;
+        }
+        @if $units == px {
+            font-size: 18px;
+        }
+        @if $units == pts {
+            font-size: 14pt;
+        }
+    }
+    @if $sizename == med-small {
+        @if $units == ems {
+            font-size: 1.250em;
+        }
+        @if $units == px {
+            font-size: 20px;
+        }
+        @if $units == pts {
+            font-size: 15pt;
+        }
+    }
+    @if $sizename == medium {
+        @if $units == ems {
+            font-size: 1.333em;
+        }
+        @if $units == px {
+            font-size: 21px;
+        }
+        @if $units == pts {
+            font-size: 16pt;
+        }
+    }
+    @if $sizename == large {
+        @if $units == ems {
+            font-size: 1.500em;
+        }
+        @if $units == px {
+            font-size: 24px;
+        }
+        @if $units == pts {
+            font-size: 18pt;
+        }
+    }
+    @if $sizename == ex-large {
+        @if $units == ems {
+            font-size: 1.667em;
+        }
+        @if $units == px {
+            font-size: 28px;
+        }
+        @if $units == pts {
+            font-size: 20pt;
+        }
+    }
+    @if $sizename == grande {
+        @if $units == ems {
+            font-size: 2em;
+        }
+        @if $units == px {
+            font-size: 32px;
+        }
+        @if $units == pts {
+            font-size: 24pt;
+        }
+    }
+}

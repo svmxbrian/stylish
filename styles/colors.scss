@@ -18,3 +18,20 @@ $icon-disabled: #BFBCBA;
 $icon-standard: #7F7979;
 $alert: #FF3300;
 $warning: #FF9933;
+
+//Line colors
+$ultralight-line-color: #E6E4E2;
+$light-line-color: #D0D0CE;
+$medium-line-color: #A1A1A1;
+
+//Text colors
+$dark-text: #333333;
+$soft-text: #6B6B6B;
+$link: $accent;
+$warning-text: #E77607;
+$reverse: #FFFFFF;
+$disabled: #333333;
+%disabled-text {
+    color: $disabled;
+    opacity: .45;
+}
