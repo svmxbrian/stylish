@@ -1,0 +1,12 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+
+@import 'base/styles/colors';
+@import 'base/styles/affordance';
+@import 'base/styles/background_dimming';
+@import 'base/styles/lines';
+@import 'base/styles/sizing_points_ems';
+@import 'base/styles/type_styles';
+
+$enable-font-awesome: dynamic(true);

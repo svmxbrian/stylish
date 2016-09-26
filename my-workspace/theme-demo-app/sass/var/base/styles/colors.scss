@@ -1,0 +1,46 @@
+//Accent colors
+$accent: #E15001;
+$accent-light: #F6CBB3;
+$accent-2: #0070D2;
+$accent-2-light: #2094FC;
+
+//Background colors
+
+$bg-ultralight: #F4F1F0;
+$bg-light: #E7E4E2;
+$bg-med-light: #D3D0CE;
+$bg-medium: #BFBCBA;
+$bg-darker: #7F7979;
+$bg-titlebar: #494343;
+
+//Icon colors
+$icon-reverse: #FFFFFF;
+$icon-disabled: #BFBCBA;
+$icon-standard: #7F7979;
+$alert: #FF3300;
+$warning: #FF9933;
+
+//Line colors
+$ultralight-line-color: #E6E4E2;
+$light-line-color: #D0D0CE;
+$medium-line-color: #A1A1A1;
+
+//Text colors
+$dark-text: #333333;
+$soft-text: #6B6B6B;
+$link: $accent;
+$warning-text: #E77607;
+$reverse: #FFFFFF;
+$disabled: #333333;
+%disabled-text {
+    color: $disabled;
+    opacity: .45;
+}
+
+.light-shadow {
+    box-shadow: 2pt 2pt 2px #808080;
+}
+
+.medium-shadow {
+    box-shadow: 3pt 3pt 5px #808080;
+}
