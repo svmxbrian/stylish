@@ -82,9 +82,3 @@ $colors : (
     disabled: #333333
 
 );
-
-@each $color in $colors {
-    .#{$color} {
-        background-color: map-get($colors, $color);
-    }
-}
