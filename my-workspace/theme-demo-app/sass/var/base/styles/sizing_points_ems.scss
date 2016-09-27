@@ -99,3 +99,21 @@
         }
     }
 }
+
+$sizes: (
+    tiny,
+    ex-small,
+    small,
+    smaller,
+    med-small,
+    medium,
+    large,
+    ex-large,
+    grande
+);
+
+@each $sizename in $sizes {
+    .#{$sizename} {
+        @include size($sizename, ems);
+    }
+}
