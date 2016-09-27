@@ -123,6 +123,7 @@
 //Buttons
 .button-link {
     color: $accent;
+    border: none;
     @extend %light;
     @include size(medium, ems);
 }

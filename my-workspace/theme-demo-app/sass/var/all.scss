@@ -9,4 +9,7 @@
 @import 'base/styles/sizing_points_ems';
 @import 'base/styles/type_styles';
 
+@import 'base/components/toast';
+@import 'base/components/buttons';
+
 $enable-font-awesome: dynamic(true);
