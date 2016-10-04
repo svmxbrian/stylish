@@ -65,6 +65,17 @@
             font-size: 16pt;
         }
     }
+    @if $sizename == med-large {
+        @if $units == ems {
+            font-size: 1.450em;
+        }
+        @if $units == px {
+            font-size: 23px;
+        }
+        @if $units == pts {
+            font-size: 17pt;
+        }
+    }
     @if $sizename == large {
         @if $units == ems {
             font-size: 1.500em;

@@ -130,6 +130,7 @@
 
 .button-link-preferred {
     color: $accent;
+    border: none;
     @extend %semibold;
     @include size(medium, ems);
 }

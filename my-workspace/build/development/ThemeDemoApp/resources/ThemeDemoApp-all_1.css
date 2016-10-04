@@ -1,3 +1,419 @@
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_colors.scss:35 */
+.button-disabled,
+.menu-item-disabled {
+    color: #333;
+    opacity: 0.45;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_colors.scss:40 */
+.light-shadow {
+    box-shadow: 2pt 2pt 2px grey;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_colors.scss:44 */
+.medium-shadow {
+    box-shadow: 3pt 3pt 5px grey;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_background_dimming.scss:4 */
+.background-dim {
+    background-color: #000;
+    opacity: 0.14;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_lines.scss:5 */
+.ultralight-line {
+    height: 1pt;
+    color: #e6e4e2;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_lines.scss:10 */
+.light-line {
+    height: 1pt;
+    color: #d0d0ce;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_lines.scss:15 */
+.medium-line {
+    height: 1pt;
+    color: #a1a1a1;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.tiny {
+    font-size: 0.875em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.ex-small {
+    font-size: 1em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.small {
+    font-size: 1.083em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.smaller {
+    font-size: 1.125em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.med-small {
+    font-size: 1.25em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.medium {
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.large {
+    font-size: 1.5em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.ex-large {
+    font-size: 1.667em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.grande {
+    font-size: 2em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.tiny {
+    font-size: 0.875em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.ex-small {
+    font-size: 1em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.small {
+    font-size: 1.083em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.smaller {
+    font-size: 1.125em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.med-small {
+    font-size: 1.25em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.medium {
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.large {
+    font-size: 1.5em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.ex-large {
+    font-size: 1.667em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_sizing_points_ems.scss:127 */
+.grande {
+    font-size: 2em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:24 */
+.text-regular-lightwt,
+.text-soft-lightwt,
+.text-reverse-light,
+.button-link,
+.button-titlebar,
+.button-titlebar-disabled,
+.button-bounded,
+.button-bounded-preferred,
+.button-disabled,
+.button-secondary,
+.cal-details-small,
+.title-light,
+.segcontrol {
+    font-weight: 300;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:28 */
+.text-regular,
+.text-soft,
+.text-reverse,
+.field-value,
+.alert,
+.warning,
+.tablecolumn-value,
+.cal-heading,
+.cal-details,
+.menu-item,
+.menu-item-disabled,
+.title-titlebar,
+.form-value,
+.form-value-readonly,
+.form-fieldprompt,
+.toast,
+.dialog .dialog-inner .dialog-text,
+.form-text-field-input,
+.form-text-field.svmx-readonly-editor .sfm-readonly-label {
+    font-weight: 400;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:32 */
+.text-bold,
+.field-label,
+.field-value-bold,
+.tablecolumn-header,
+.button-link-preferred,
+.title-dialog,
+.card-title,
+.form-label,
+.segcontrol-selected,
+.dialog .dialog-title .x-title,
+.form-text-field .x-form-label {
+    font-weight: 600;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:37 */
+.text-regular,
+.dialog .dialog-inner .dialog-text {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:43 */
+.text-bold {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:49 */
+.text-soft {
+    color: #6b6b6b;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:55 */
+.text-regular-lightwt {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:61 */
+.text-soft-lightwt {
+    color: #6b6b6b;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:67 */
+.text-reverse {
+    color: #fff;
+    background-color: #7f7979;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:74 */
+.text-reverse-light {
+    color: #fff;
+    background-color: #7f7979;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:81 */
+.field-label,
+.form-label,
+.form-text-field .x-form-label {
+    color: #333;
+    font-size: 1.083em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:87 */
+.field-value {
+    color: #6b6b6b;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:93 */
+.field-value-bold {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:99 */
+.alert {
+    color: #f30;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:105 */
+.warning {
+    color: #e77607;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:111 */
+.tablecolumn-header {
+    color: #333;
+    font-size: 1.083em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:117 */
+.tablecolumn-value {
+    color: #6b6b6b;
+    font-size: 1.125em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:124 */
+.button-link {
+    color: #e15001;
+    border: none;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:131 */
+.button-link-preferred {
+    color: #e15001;
+    border: none;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:138 */
+.button-titlebar {
+    color: #fff;
+    background-color: #7f7979;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:145 */
+.button-titlebar-disabled {
+    color: rgba(107, 107, 107, 0.5);
+    background-color: #7f7979;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:152 */
+.button-bounded {
+    color: #e15001;
+    border-color: #e15001;
+    border-width: 1pt;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:160 */
+.button-bounded-preferred {
+    color: #fff;
+    background-color: #e15001;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:167 */
+.button-disabled {
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:173 */
+.button-secondary {
+    color: #6b6b6b;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:180 */
+.cal-heading {
+    color: #333;
+    font-size: 1.5em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:186 */
+.cal-details {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:192 */
+.cal-details-small {
+    color: #333;
+    font-size: 1em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:199 */
+.menu-item {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:205 */
+.menu-item-disabled {
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:212 */
+.title-titlebar {
+    color: #fff;
+    background-color: #7f7979;
+    font-size: 1.5em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:219 */
+.title-dialog,
+.dialog .dialog-title .x-title {
+    color: #333;
+    font-size: 1.45em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:225 */
+.title-light {
+    color: #333;
+    font-size: 1.45em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:231 */
+.card-title {
+    color: #333;
+    font-size: 1.5em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:242 */
+.form-value,
+.form-text-field-input,
+.form-text-field.svmx-readonly-editor .sfm-readonly-label {
+    color: #333;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:248 */
+.form-value-readonly,
+.form-text-field.svmx-readonly-editor .sfm-readonly-label {
+    color: #6b6b6b;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:254 */
+.form-fieldprompt {
+    color: #333;
+    font-style: italic;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:261 */
+.toast {
+    color: #e15001;
+    font-size: 1.125em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:267 */
+.segcontrol {
+    color: #6b6b6b;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/styles/_type_styles.scss:273 */
+.segcontrol-selected {
+    color: #e15001;
+    font-size: 1.333em;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_buttons.scss:1 */
+.x-button {
+    border-radius: 2px;
+    padding: 0;
+    height: 50px;
+    width: 200px;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_buttons.scss:6 */
+.x-button .x-button-label {
+    white-space: pre-wrap;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:41 */
+.dialog {
+    border-radius: 2px;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:44 */
+.dialog .dialog-title {
+    background-color: #f4f1f0;
+    height: 35pt;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:51 */
+.dialog .dialog-title > .x-body {
+    background: none;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:56 */
+.dialog .dialog-inner {
+    background: white;
+    border: 1px solid #e7e4e2;
+    padding: 20pt;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:61 */
+.dialog .dialog-inner .dialog-text {
+    min-height: 60pt;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:67 */
+.dialog .dialog-buttons {
+    padding: 0;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_dialogs.scss:70 */
+.dialog .dialog-buttons .x-button {
+    margin: 0;
+    border: 1px solid #e7e4e2;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_formelements.scss:8 */
+.form-text-field-input,
+.form-text-field.svmx-readonly-editor .sfm-readonly-label {
+    padding-left: 6pt;
+    height: 35pt;
+    border: 1pt solid #d0d0ce;
+}
+/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/theme-demo-app/sass/var/base/components/_formelements.scss:16 */
+.form-text-field.svmx-readonly-editor .sfm-readonly-label {
+    background-color: #e7e4e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/packages/core/sass/src/util/SizeMonitor.scss:5 */
 .x-size-monitored {
     position: relative;
@@ -2842,7 +3258,7 @@ div.x-form-text-grow .x-form-textarea {
 .x-body {
     color: #404040;
     font-size: 13px;
-    line-height: 17px;
+    line-height: 1pt;
     font-weight: 300;
     font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
     background: #f6f6f6;
@@ -7365,7 +7781,7 @@ body > .x-mask {
 /* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/dd/StatusProxy.scss:1 */
 .x-dd-drag-proxy {
     color: #404040;
-    font: 300 13px/17px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    font: 300 13px/1pt 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
     border: 1px solid #d0d0d0;
     background-color: #fff;
 }
@@ -15717,270 +16133,4 @@ div.x-border-layout-ct {
 /* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2942 */
 .x-nbr .x-tab-default {
     background-image: none;
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-over .x-tab-default-top-tl,
-.x-tab-over .x-tab-default-top-bl,
-.x-tab-over .x-tab-default-top-tr,
-.x-tab-over .x-tab-default-top-br,
-.x-tab-over .x-tab-default-top-tc,
-.x-tab-over .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-over-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-over .x-tab-default-top-ml,
-.x-tab-over .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-over-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-over .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-over-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus .x-tab-default-top-tl,
-.x-tab-focus .x-tab-default-top-bl,
-.x-tab-focus .x-tab-default-top-tr,
-.x-tab-focus .x-tab-default-top-br,
-.x-tab-focus .x-tab-default-top-tc,
-.x-tab-focus .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-focus-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus .x-tab-default-top-ml,
-.x-tab-focus .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-focus-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-focus-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus.x-tab-over .x-tab-default-top-tl,
-.x-tab-focus.x-tab-over .x-tab-default-top-bl,
-.x-tab-focus.x-tab-over .x-tab-default-top-tr,
-.x-tab-focus.x-tab-over .x-tab-default-top-br,
-.x-tab-focus.x-tab-over .x-tab-default-top-tc,
-.x-tab-focus.x-tab-over .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-focus-over-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus.x-tab-over .x-tab-default-top-ml,
-.x-tab-focus.x-tab-over .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-focus-over-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus.x-tab-over .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-focus-over-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab.x-tab-active .x-tab-default-top-tl,
-.x-tab.x-tab-active .x-tab-default-top-bl,
-.x-tab.x-tab-active .x-tab-default-top-tr,
-.x-tab.x-tab-active .x-tab-default-top-br,
-.x-tab.x-tab-active .x-tab-default-top-tc,
-.x-tab.x-tab-active .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-active-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab.x-tab-active .x-tab-default-top-ml,
-.x-tab.x-tab-active .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-active-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab.x-tab-active .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-active-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus.x-tab-active .x-tab-default-top-tl,
-.x-tab-focus.x-tab-active .x-tab-default-top-bl,
-.x-tab-focus.x-tab-active .x-tab-default-top-tr,
-.x-tab-focus.x-tab-active .x-tab-default-top-br,
-.x-tab-focus.x-tab-active .x-tab-default-top-tc,
-.x-tab-focus.x-tab-active .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-focus-active-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus.x-tab-active .x-tab-default-top-ml,
-.x-tab-focus.x-tab-active .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-focus-active-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus.x-tab-active .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-focus-active-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab.x-tab-disabled .x-tab-default-top-tl,
-.x-tab.x-tab-disabled .x-tab-default-top-bl,
-.x-tab.x-tab-disabled .x-tab-default-top-tr,
-.x-tab.x-tab-disabled .x-tab-default-top-br,
-.x-tab.x-tab-disabled .x-tab-default-top-tc,
-.x-tab.x-tab-disabled .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-disabled-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab.x-tab-disabled .x-tab-default-top-ml,
-.x-tab.x-tab-disabled .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-disabled-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab.x-tab-disabled .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-disabled-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-over .x-tab-default-right-tl,
-.x-tab-over .x-tab-default-right-bl,
-.x-tab-over .x-tab-default-right-tr,
-.x-tab-over .x-tab-default-right-br,
-.x-tab-over .x-tab-default-right-tc,
-.x-tab-over .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-over-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-over .x-tab-default-right-ml,
-.x-tab-over .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-over-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-over .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-over-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus .x-tab-default-right-tl,
-.x-tab-focus .x-tab-default-right-bl,
-.x-tab-focus .x-tab-default-right-tr,
-.x-tab-focus .x-tab-default-right-br,
-.x-tab-focus .x-tab-default-right-tc,
-.x-tab-focus .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-focus-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus .x-tab-default-right-ml,
-.x-tab-focus .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-focus-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-focus-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus.x-tab-over .x-tab-default-right-tl,
-.x-tab-focus.x-tab-over .x-tab-default-right-bl,
-.x-tab-focus.x-tab-over .x-tab-default-right-tr,
-.x-tab-focus.x-tab-over .x-tab-default-right-br,
-.x-tab-focus.x-tab-over .x-tab-default-right-tc,
-.x-tab-focus.x-tab-over .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-focus-over-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus.x-tab-over .x-tab-default-right-ml,
-.x-tab-focus.x-tab-over .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-focus-over-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus.x-tab-over .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-focus-over-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab.x-tab-active .x-tab-default-right-tl,
-.x-tab.x-tab-active .x-tab-default-right-bl,
-.x-tab.x-tab-active .x-tab-default-right-tr,
-.x-tab.x-tab-active .x-tab-default-right-br,
-.x-tab.x-tab-active .x-tab-default-right-tc,
-.x-tab.x-tab-active .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-active-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab.x-tab-active .x-tab-default-right-ml,
-.x-tab.x-tab-active .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-active-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab.x-tab-active .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-active-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus.x-tab-active .x-tab-default-right-tl,
-.x-tab-focus.x-tab-active .x-tab-default-right-bl,
-.x-tab-focus.x-tab-active .x-tab-default-right-tr,
-.x-tab-focus.x-tab-active .x-tab-default-right-br,
-.x-tab-focus.x-tab-active .x-tab-default-right-tc,
-.x-tab-focus.x-tab-active .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-focus-active-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus.x-tab-active .x-tab-default-right-ml,
-.x-tab-focus.x-tab-active .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-focus-active-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus.x-tab-active .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-focus-active-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab.x-tab-disabled .x-tab-default-right-tl,
-.x-tab.x-tab-disabled .x-tab-default-right-bl,
-.x-tab.x-tab-disabled .x-tab-default-right-tr,
-.x-tab.x-tab-disabled .x-tab-default-right-br,
-.x-tab.x-tab-disabled .x-tab-default-right-tc,
-.x-tab.x-tab-disabled .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-disabled-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab.x-tab-disabled .x-tab-default-right-ml,
-.x-tab.x-tab-disabled .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-disabled-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab.x-tab-disabled .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-disabled-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-over .x-tab-default-bottom-tl,
-.x-tab-over .x-tab-default-bottom-bl,
-.x-tab-over .x-tab-default-bottom-tr,
-.x-tab-over .x-tab-default-bottom-br,
-.x-tab-over .x-tab-default-bottom-tc,
-.x-tab-over .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-over-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-over .x-tab-default-bottom-ml,
-.x-tab-over .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-over-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-over .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-over-fbg.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2961 */
-.x-tab-focus .x-tab-default-bottom-tl,
-.x-tab-focus .x-tab-default-bottom-bl,
-.x-tab-focus .x-tab-default-bottom-tr,
-.x-tab-focus .x-tab-default-bottom-br,
-.x-tab-focus .x-tab-default-bottom-tc,
-.x-tab-focus .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-corners.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2970 */
-.x-tab-focus .x-tab-default-bottom-ml,
-.x-tab-focus .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-sides.gif);
-}
-/* /Users/brianlee/Documents/Workspace/stylish/my-workspace/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2975 */
-.x-tab-focus .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-fbg.gif);
 }

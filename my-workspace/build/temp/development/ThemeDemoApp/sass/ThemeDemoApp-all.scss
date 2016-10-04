@@ -1348,4 +1348,12 @@ $ThemeDemoApp-resource-path: 'images' !default;
 $current-package: false;
 $current-resource-root: $ThemeDemoApp-resource-root;
 $relative-image-path-for-uis: $ThemeDemoApp-resource-path;
+@import '../../../../../theme-demo-app/sass/src/all';
+
+/* including package ThemeDemoApp */
+$ThemeDemoApp-resource-root: '' !default;
+$ThemeDemoApp-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $ThemeDemoApp-resource-root;
+$relative-image-path-for-uis: $ThemeDemoApp-resource-path;
 @import '../../../../../theme-demo-app/sass/src/view/main/Main';
