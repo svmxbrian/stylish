@@ -1,0 +1,277 @@
+@import "sizing_points_ems.scss";
+
+@mixin set-font-family($device) {
+    @if $device == ios {
+        font-family: SF UI Text;
+    }
+    @if $device == android {
+        font-family: Roboto;
+    }
+    @if $device == online {
+        font-family: Salesforce Sans;
+    }
+    @if $device == windows {
+        font-family: Segoe UI;
+    }
+}
+
+//Placeholders for font-weights
+//Not included in final CSS
+%thin {
+    font-weight: 100;
+}
+
+%light {
+    font-weight: 300;
+}
+
+%regular {
+    font-weight: 400;
+}
+
+%semibold {
+    font-weight: 600;
+}
+
+//Define named styles
+.text-regular {
+    color: $dark-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.text-bold {
+    color: $dark-text;
+    @extend %semibold;
+    @include size(medium, ems);
+}
+
+.text-soft {
+    color: $soft-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.text-regular-lightwt {
+    color: $dark-text;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.text-soft-lightwt {
+    color: $soft-text;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.text-reverse {
+    color: $reverse;
+    background-color: map-get($colors, bg-darker);
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.text-reverse-light {
+    color: $reverse;
+    background-color: map-get($colors, bg-darker);
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.field-label {
+    color: $dark-text;
+    @extend %semibold;
+    @include size(small, ems);
+}
+
+.field-value {
+    color: $soft-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.field-value-bold {
+    color: $dark-text;
+    @extend %semibold;
+    @include size(medium, ems);
+}
+
+.alert {
+    color: $alert;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.warning {
+    color: $warning-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.tablecolumn-header {
+    color: $dark-text;
+    @extend %semibold;
+    @include size(small, ems);
+}
+
+.tablecolumn-value {
+    color: $soft-text;
+    @extend %regular;
+    @include size(smaller, ems);
+}
+
+//Buttons
+.button-link {
+    color: $accent;
+    border: none;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.button-link-preferred {
+    color: $accent;
+    border: none;
+    @extend %semibold;
+    @include size(medium, ems);
+}
+
+.button-titlebar {
+    color: $reverse;
+    background-color: map-get($colors, bg-darker);
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.button-titlebar-disabled {
+    color: rgba(107,107,107, .5);
+    background-color: map-get($colors, bg-darker);
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.button-bounded {
+    color: $accent;
+    border-color: $accent;
+    border-width: 1pt;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.button-bounded-preferred {
+    color: $reverse;
+    background-color: $accent;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.button-disabled {
+    @extend %disabled-text;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.button-secondary {
+    color: $soft-text;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+//Calendar
+.cal-heading {
+    color: $dark-text;
+    @extend %regular;
+    @include size(large, ems);
+}
+
+.cal-details {
+    color: $dark-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.cal-details-small {
+    color: $dark-text;
+    @extend %light;
+    @include size(ex-small, ems);
+}
+
+//Menus
+.menu-item {
+    color: $dark-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.menu-item-disabled {
+    @extend %disabled-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+//Titles
+.title-titlebar {
+    color: $reverse;
+    background-color: map-get($colors, bg-darker);
+    @extend %regular;
+    @include size(large, ems);
+}
+
+.title-dialog {
+    color: $dark-text;
+    @extend %semibold;
+    @include size(med-large, ems);
+}
+
+.title-light {
+    color: $dark-text;
+    @extend %light;
+    @include size(med-large, ems);
+}
+
+.card-title {
+    color: $dark-text;
+    @extend %semibold;
+    @include size(large, ems);
+}
+
+//Forms
+.form-label {
+    @extend .field-label;
+}
+
+.form-value {
+    color: $dark-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.form-value-readonly {
+    color: $soft-text;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.form-fieldprompt {
+    color: $dark-text;
+    font-style: italic;
+    @extend %regular;
+    @include size(medium, ems);
+}
+
+.toast {
+    color: $accent;
+    @extend %regular;
+    @include size(smaller, ems);
+}
+
+.segcontrol {
+    color: $soft-text;
+    @extend %light;
+    @include size(medium, ems);
+}
+
+.segcontrol-selected {
+    color: $accent;
+    @extend %semibold;
+    @include size(medium, ems);
+}

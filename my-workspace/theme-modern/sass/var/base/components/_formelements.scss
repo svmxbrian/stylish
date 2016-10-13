@@ -1,0 +1,40 @@
+.form-text-field {
+    //Title
+    .x-form-label {
+        padding-left: 0;
+        @extend .form-label;
+    }
+
+}
+
+.form-text-field-input {
+    padding-left: 6pt;
+    height: 35pt;
+    border: 1pt solid $light-line-color;
+    @extend .form-value;
+}
+
+.form-text-field.svmx-readonly-editor {
+    .sfm-readonly-label {
+        background-color: $bg-light;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @extend .form-text-field-input;
+        @extend .form-value-readonly;
+    }
+}
+
+.x-field-input .svmx-barcode-icon {
+    position: absolute;
+    font-size: 1.23rem;
+    color: #797979;
+    margin-top: -0.55em;
+    right: 3.25em;
+    top: 50%;
+
+    &:before {
+        font-family: FontAwesome;
+        content: "\f02a";
+    }
+}

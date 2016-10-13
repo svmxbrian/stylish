@@ -1,0 +1,18 @@
+
+.colors-accent-colors {
+    display: inline-block;
+}
+
+.colors-bg-colors {
+    display: inline-block;
+}
+
+.colors-icon-colors {
+    display: inline-block;
+}
+
+@each $color in $colors {
+    .just-bg-#{$color} {
+        background-color: map-get($colors, $color);
+    }
+}
